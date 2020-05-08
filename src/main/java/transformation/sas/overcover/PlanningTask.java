@@ -10,15 +10,14 @@
  */
 package transformation.sas.overcover;
 
+import io.pddl.in.objects.*;
 import transformation.sas.overcover.entities.Type;
 import transformation.sas.overcover.entities.ActionInstance;
 import transformation.sas.overcover.entities.Operator;
 import transformation.sas.overcover.entities.StandardAtom;
 import transformation.sas.overcover.planninggraph.IncrementalLiftedPlanningGraph;
 import io.pddl.in.PDDLFactory;
-import io.pddl.in.objects.IODomain;
-import io.pddl.in.objects.IOProblem;
-import io.pddl.in.objects.IOVariable;
+
 import java.lang.reflect.Array;
 import java.util.AbstractList;
 import java.util.ArrayList;
@@ -31,7 +30,6 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
-import org.omg.CORBA.DoubleHolder;
 import transformation.sas.overcover.planninggraph.MutexAtoms;
 
 /**
@@ -152,6 +150,8 @@ public class PlanningTask {
         IOProblem p = PDDLFactory.parseProblem(problemPath);
         IODomain d = PDDLFactory.parseDomain(domainPath);
 
+//        removeNegativePreconditions(p,d);
+
         p.Explain(System.out);
         d.Explain(System.out);
         
@@ -255,6 +255,63 @@ public class PlanningTask {
         }
 
     }
+
+
+//
+//    private static void removeNegativePreconditions(IOProblem p, IODomain d) {
+//        // Find all negative precodnitions.
+//        HashMap<String, IOLiteral> negPrec = new HashMap<>();
+//        for(IOAction a:d.actions){
+//            List<IOLiteral> remove = new LinkedList<>();
+//            for(IOLiteral l:a.conditions){
+//                if(!l.positive){
+//                    negPrec.put(l.toString(),l);
+//                    remove.add(l);
+//                }
+//            }
+//            a.conditions.removeAll(remove);
+//            for(IOLiteral l:remove){
+//                a.conditions.add(createNeg(l));
+//            }
+//        }
+//        // Extend with negative literals in effects
+//        for(IOAction a:d.actions){
+//            List<IOLiteral> add = new LinkedList<>();
+//            for(IOLiteral l:a.effects){
+//                if(negPrec.containsKey(l.toString())){
+//                    IOLiteral neg = createNeg(l);
+//                    neg.positive = !l.positive;
+//                    add.add(neg);
+//                }
+//            }
+//            a.effects.addAll(add);
+//        }
+//        // Update domain with negative predicates
+//        List<IOPredicate> add = new LinkedList<>();
+//        for(IOPredicate pr:d.predicates){
+//            for(IOLiteral i:negPrec.values()){
+//                if(i.mName.equals(pr.mName)){
+//                    IOPredicate pred = new IOPredicate();
+//                    pred.mName = "neg_"+pr.mName;
+//                    pred.mVars = pr.mVars;
+//                    pred.isStatic = pr.isStatic;
+//                    add.add(pred);
+//                }
+//            }
+//        }
+//        d.predicates.addAll(add);
+//        // Update initial state
+//
+//        // Ground all predicates (positive and negative)
+//        for(IOLiteral pr:negPrec.values()){
+//            System.out.println(p.toString());
+//        }
+//
+//
+//
+//        int xx = 0;
+//
+//    }
 
     /*private enum ECommandLineArgument {
 

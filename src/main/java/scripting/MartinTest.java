@@ -34,9 +34,9 @@ public class MartinTest {
         
         rewriteDomain("C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/operator1.pddl", "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/mod_operator1.pddl");
         
-        test.Test.PDDLToSAS(
-                "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/mod_operator1.pddl",
-                "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/facts1.pddl",
-                "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/out.sas");
+//        test.Test.PDDLToSAS(
+//                "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/mod_operator1.pddl",
+//                "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/facts1.pddl",
+//                "C:/ROOT/PROJECTS/pddlParser/data/martinsudaTest/out.sas");
     }
 }

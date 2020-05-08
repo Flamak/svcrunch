@@ -27,7 +27,7 @@ public class IOProblem {
     //public LinkedList<IOFunction> functionInit = new LinkedList<>();
     public LinkedList<IOPredicate> predicateInit = new LinkedList<>();
     public LinkedList<IOLiteral> goal = new LinkedList<>();   
-    public EMetric mMetric = null;
+    public EMetric mMetric = EMetric.MINIMIZE_TOTAL_COST;
     
     public void Explain(PrintStream s){
         s.println("--------------------------------");

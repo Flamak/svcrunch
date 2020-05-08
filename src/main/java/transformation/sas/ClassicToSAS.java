@@ -10,12 +10,10 @@
  */
 package transformation.sas;
 
+import edu.emory.mathcs.backport.java.util.Collections;
 import fLib.utils.TestInt;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
+
+import java.util.*;
 import javax.swing.text.html.CSS;
 import representations.SAS.*;
 import representations.classic.Action;
@@ -326,6 +324,17 @@ public class ClassicToSAS {
         }
         //lets find some mutex sets
         LinkedList<LinkedList<StandardAtom>> mutexSets = CliqueSearch.GetMutexSetsLimited(mx, hs);
+        Collections.sort(mutexSets, new Comparator() {
+            @Override
+            public int compare(Object o1, Object o2) {
+                List<StandardAtom> l1 = (LinkedList)o1;
+                List<StandardAtom> l2 = (LinkedList)o2;
+                return -l1.size()+l2.size();
+            }
+        });
+        for(List<StandardAtom> l:mutexSets){
+            System.out.println(l.toString());
+        }
         LinkedList<LinkedList<StandardAtom>> cvr = SetCovering.greedySetCover(mutexSets);
         SASTask task = createSASTask(cvr, in.mName + "//ClassicToSAS.TransformH2GreedyCover", in);
         return task;

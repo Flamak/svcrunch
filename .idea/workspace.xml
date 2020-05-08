@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3526f0eb-a041-4a33-a66b-58151a880cda" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bZzl8bUELjQ1vLuBGWeOfUm6jk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SLBParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scripting.SLBParse" />
+      <module name="svcrunch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SLBParse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3526f0eb-a041-4a33-a66b-58151a880cda" name="Default Changelist" comment="" />
+      <created>1588854551151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588854551151</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="553" height="466" key="DebuggerActiveHint" timestamp="1588955979603">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="553" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1588955979603" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1588956030923">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588956030923" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1588956030923">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588956030923" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1588956030922">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588956030922" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1588956030923">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588956030923" />
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1588956028807">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588956028807" />
+    <state width="1493" height="205" key="GridCell.Tab.1.center" timestamp="1588956028807">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1588956028807" />
+    <state width="1493" height="205" key="GridCell.Tab.1.left" timestamp="1588956028807">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1588956028807" />
+    <state width="1493" height="205" key="GridCell.Tab.1.right" timestamp="1588956028807">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1588956028807" />
+    <state x="478" y="16" width="581" height="801" key="find.popup" timestamp="1588952398521">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="478" y="16" width="581" height="801" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1588952398521" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/pddl/in/automata/PddlParser.java</url>
+          <line>5210</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar!/org/antlr/runtime/tree/RewriteRuleElementStream.class</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/sas/overcover/PlanningTask.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/sas/overcover/planninggraph/IncrementalLiftedPlanningGraph.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/sas/overcover/planninggraph/IncrementalLiftedPlanningGraph.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/standard/IOToCLassic_KBReduction.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/standard/IOToCLassic_KBReduction.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/standard/IOToCLassic_KBReduction.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/standard/IOToCLassic_KBReduction.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="a.toString().equals(&quot;operation_initialize(op_usit3,surface_poi)&quot;) " language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/standard/ClassicToClassic_KBReductionNaive.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scripting/SLBParse.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/transformation/sas/ClassicToSAS.java</url>
+          <line>338</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

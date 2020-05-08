@@ -143,7 +143,7 @@ public class ScriptsGen {
             }
 
             long start = System.currentTimeMillis();
-            test.Test.PDDLToSAS(domName, path, outputDirectory + name + ".sas");
+//            test.Test.PDDLToSAS(domName, path, outputDirectory + name + ".sas");
             long diff = System.currentTimeMillis() - start;
             System.out.println("Translating " + path + " took " + diff + "ms");
         }
